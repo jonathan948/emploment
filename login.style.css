@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    background: url("./image/Login.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* navbar section */
+.navbar-brand{
+    font-size: 30px;
+    color: white !important;
+}
+.nav-link{
+    float: right;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+  color: orange;
+}
+
+
+.colored{
+    color: orange;
+}
+
+.landing-header{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* register section */
+.register-head{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 29%;
+}
+
+.regis-row{
+    padding: 30px;
+}
+
+.register-para{
+    color: white;
+}
+
+.form{
+    padding: 15px;
+    background: white;
+    width: 40%;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    margin-bottom: 10px;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 29%;
+    opacity: 0.9;
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+
+  .log-para{
+    font-size: 13px;
+  }
+  
+  /* @media (max-width: 1024px){
+    .form{
+        padding: 7px;
+        background: white;
+        width: 50%;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+  
+    .register-col{
+      margin-top: 30px;
+      width: 50%;
+    }
+
+    .register-head{
+        color: white;
+        text-transform: uppercase;
+        padding-top: 50px;
+        font-size: 30px;
+      }
+
+      .register-para{
+        color: white;
+    }
+    
+
+      .regis-row{
+          margin-top: 30%;
+      }
+  } */
+
+  @media (max-width: 768px){
+    .form{
+        padding: 7px;
+        background: white;
+        width: 50%;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+  
+    .register-col{
+      margin-top: 30px;
+      width: 50%;
+    }
+
+    .register-head{
+        color: white;
+        text-transform: uppercase;
+        padding-top: 50px;
+        font-size: 27px;
+      }
+
+      .regis-row{
+          margin-top: 30%;
+      }
+  }
+
+  @media (max-width: 540px){
+
+    .nav-link{
+        font-size: 14px;
+    }
+    
+    .navbar-brand{
+        font-size: 20px;
+    }
+
+    .form{
+      padding: 7px;
+      background: white;
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 20px;
+  }
+
+  .register-col{
+    margin-top: 0px !important;
+    width: 100%;
+  }
+  
+  .register-head{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 0px;
+  }
+  
+  .registerbtn {
+    background-color: #04AA6D;
+    width: 35%;
+  
+  }
+  
+  .banner{
+    background: url("./image/register.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .log-para{
+      font-size: 14px;
+  }
+
+  .regis-row{
+    margin-top: 0px;
+}
+  
+  }
+
+  @media (max-width: 375px){
+
+    .nav-link{
+        font-size: 14px;
+    }
+    
+    .navbar-brand{
+        font-size: 20px;
+    }
+
+    .form{
+      padding: 7px;
+      background: white;
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 20px;
+  }
+
+  .register-col{
+    margin-top: 0px !important;
+  }
+  
+  .register-head{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 0px;
+    font-size: 25px;
+  }
+  
+  .registerbtn {
+    background-color: #04AA6D;
+    width: 35%;
+  
+  }
+  
+  .banner{
+    background: url("./image/register.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .log-para{
+      font-size: 14px;
+  }
+
+  .regis-row{
+    margin-top: 0px;
+}
+  
+  }
+
+  @media (max-width: 360px){
+
+    .nav-link{
+        font-size: 14px;
+    }
+    
+    .navbar-brand{
+        font-size: 20px;
+    }
+
+    .form{
+      padding: 7px;
+      background: white;
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 20px;
+  }
+
+  .register-col{
+    margin-top: 30px;
+  }
+  
+  .register-head{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 0px;
+    font-size: 25px;
+  }
+  
+  .registerbtn {
+    background-color: #04AA6D;
+    width: 35%;
+  
+  }
+  
+  .banner{
+    background: url("./image/register.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .log-para{
+      font-size: 14px;
+  }
+  
+  }
+
+  @media (max-width: 320px){
+
+    .nav-link{
+        font-size: 14px;
+    }
+    
+    .navbar-brand{
+        font-size: 20px;
+    }
+    
+    .form{
+      padding: 7px;
+      background: white;
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 20px;
+  }
+
+  .register-col{
+    margin-top: 30px;
+  }
+  
+  .register-head{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 0px;
+    font-size: 20px;
+  }
+  
+  .registerbtn {
+    background-color: #04AA6D;
+    width: 35%;
+  
+  }
+  
+  .banner{
+    background: url("./image/register.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .log-para{
+      font-size: 14px;
+  }
+  
+  }

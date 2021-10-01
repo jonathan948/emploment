@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    background: url("./image/banner.jpeg")  50% 0 no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    -webkit-transition: padding 0.2s linear;
+    -moz-transition: padding 0.2s linear;
+    -o-transition: padding 0.2s linear;
+    transition: padding 0.2s linear;
+}
+
+/* navbar section */
+.navbar-brand{
+    font-size: 30px;
+    color: white !important;
+}
+.nav-link{
+    float: right;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: orange;
+}
+
+/* lading page */
+.sizing{
+    font-size: 18px;
+    color: gray;
+}
+
+.colored{
+    color: orange;
+}
+
+.landing-header{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.landing-page-para{
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+}
+
+.landing-page-para-mobil{
+    display: none;
+}
+
+.emplo{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    margin-top: 50px;
+}
+
+.border{
+    padding: 1px;
+    border: solid orange 2px;
+    background-color: rgb(182, 119, 3);
+    width: 50px;
+    margin: 0 auto;
+    color: orange;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    text-transform: uppercase;
+    width: 100%;
+    margin: 10px;
+}
+
+.regis-btn{
+    margin: 24px;
+}
+
+.btn-secondary:hover{
+    background: none;
+    border: solid 1px;
+    transition: all 0.3 ease;
+    margin: 10px;
+}
+
+.btn-warning:hover{
+    color: white;
+}
+
+/* @media(max-width: 1024px){
+    .navbar-brand{
+        font-size: 40px;
+    }
+
+    .nav-link{
+        font-size: 30px;
+    }
+
+    .emplo{
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        padding: 11px;
+        margin-top: 30%;
+    }
+
+    .landing-header{
+        color: white;
+        text-align: center;
+        font-size: 100px !important;
+    }
+
+    .landing-page-para{
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        margin-top: 30px;
+    }
+
+    
+    .btn{
+        text-transform: uppercase;
+        width: 100%;
+        margin: 0px;
+        font-size: 30px;
+    }
+} */
+
+@media (max-width: 768px){
+
+    .navbar-brand{
+        font-size: 30px;
+    }
+
+    .emplo{
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        padding: 11px;
+        margin-top: 30%;
+    }
+
+    .btn{
+        text-transform: uppercase;
+        width: 100%;
+        margin: 0px;
+        font-size: 30px;
+    }
+
+    .regis-btn{
+        margin: 30px;
+    }
+
+    .landing-page-para-mobil{
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 29px;
+        color: rgb(255, 255, 255);
+        margin-top: 30px;
+    }
+
+    .landing-header{
+        color: white;
+        text-align: center;
+        font-size: 70px !important;
+    }
+
+    .landing-page-para{
+        display: none;
+    } 
+
+    
+    .regis-btn{
+        margin: 6px;
+    }
+}
+
+@media (max-width: 540px){
+    .nav-link{
+        font-size: 20px;
+    }
+
+    .navbar-brand{
+        font-size: 20px;
+    }
+    .emplo{
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        padding: 11px;
+        margin-top: 30%;
+    }
+
+    .btn{
+        text-transform: uppercase;
+        width: 100%;
+        margin: 0px;
+        font-size: 17px !important;
+    }
+
+    .landing-page-para-mobil{
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 26px;
+        color: rgb(255, 255, 255);
+        margin-top: 30px;
+    }
+
+    .landing-header{
+        color: white;
+        text-align: center;
+        font-size: 40px !important;
+    }
+
+    .landing-page-para{
+        color: white;
+        text-align: center;
+        font-size: 26px;
+        color: rgb(255, 255, 255);
+        margin-top: 30px;
+        display: none;
+    } 
+
+    
+    .regis-btn{
+        margin: 6px;
+    }
+}
+
+@media (max-width: 375px){
+    .emplo{
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        padding: 11px;
+        margin-top: 30% !important;
+    }
+
+    .btn{
+        text-transform: uppercase;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .landing-header{
+        color: white;
+        text-align: center;
+        font-size: 40px !important;
+    }
+
+    
+.landing-page-para{
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+
+    
+.regis-btn{
+    margin: 6px;
+}
+}
+
+@media (max-width: 360px){ 
+    .emplo{
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        padding: 11px;
+        margin-top: 30% !important;
+    }
+
+    .btn{
+        text-transform: uppercase;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .landing-header{
+        color: white;
+        text-align: center;
+        font-size: 40px !important;
+    }
+
+    
+    .landing-page-para-mobil{
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        margin-top: 30px;
+    }
+
+    .landing-page-para{
+        display: none;
+    }
+
+    
+.regis-btn{
+    margin: 6px;
+}
+}
+
+@media (max-width: 320px){
+    .emplo{
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin-top: 79px;
+    }
+
+    .btn{
+        text-transform: uppercase;
+        width: 100%;
+        margin: 0px;
+        font-size: 14px !important;
+    }
+
+    .landing-header{
+        color: white;
+        text-align: center;
+        font-size: 30px !important;
+    }
+
+    
+.landing-page-para{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+
+    
+.regis-btn{
+    margin: 6px;
+}
+}
